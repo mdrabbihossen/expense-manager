@@ -1,4 +1,4 @@
-import 'package:expense_manager/views/cart_view/screen/cart_view_screen.dart';
+import 'package:expense_manager/views/home/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CartViewScreen(),
+      home: HomeScreen(),
     );
   }
 }
