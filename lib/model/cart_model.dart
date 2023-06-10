@@ -1,4 +1,4 @@
-class CardModel {
+class CartModel {
   final int id;
   final String name;
   final String bankName;
@@ -7,7 +7,7 @@ class CardModel {
 
   final int available;
 
-  CardModel({
+  CartModel({
     required this.id,
     required this.name,
     required this.bankName,
@@ -25,7 +25,7 @@ class CardModel {
     'available': available
   };
 
-  CardModel.fromJson(Map json)
+  CartModel.fromJson(Map json)
       : id = json['id'],
         name = json['name'],
         bankName = json['bankName'],

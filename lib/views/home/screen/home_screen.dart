@@ -13,13 +13,12 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.kBackgroundColor,
       appBar: AppBar(
         title: const Text(
           "Home page",
           style: TextStyle(color: Colors.black),
         ),
-        backgroundColor: const Color.fromRGBO(238, 241, 242, 1),
+        backgroundColor: AppColors.kBackgroundColor,
         elevation: 0,
         leading: null,
         actions: <Widget>[
